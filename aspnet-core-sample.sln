@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-sample", "aspnet-core-sample.csproj", "{F585260D-0316-4C96-8B7A-4E7F66F9202B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,7 +14,24 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Debug|x64.Build.0 = Debug|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Debug|x86.Build.0 = Debug|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Release|x64.ActiveCfg = Release|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Release|x64.Build.0 = Release|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Release|x86.ActiveCfg = Release|Any CPU
+		{F585260D-0316-4C96-8B7A-4E7F66F9202B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4F54D9A-0F21-43AA-BB25-D53EB88859C4}
 	EndGlobalSection
 EndGlobal
